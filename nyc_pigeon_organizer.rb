@@ -1,4 +1,4 @@
-def nyc_pigeon_organizer(data)
+def nyc_pigeon_organizer(hash)
   new_hash = {}
   data.each do |key, value|
     pp key
