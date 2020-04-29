@@ -18,7 +18,7 @@ def nyc_pigeon_organizer(hash)
           new_hash[pigeon_name] = {}
         end
         new_hash[pigeon_name][outer_key] = []
-        new_hash[pigeon_name][outer_key].push(inner_key).to_s
+        new_hash[pigeon_name][outer_key] << inner_key.to_s
       end 
     end
   end
