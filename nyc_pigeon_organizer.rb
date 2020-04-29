@@ -11,6 +11,7 @@ def nyc_pigeon_organizer(hash)
       
       pp inner_value
       # pigeon names
+      inner_value.each do |pigeon_names|
     end
   end
 end
