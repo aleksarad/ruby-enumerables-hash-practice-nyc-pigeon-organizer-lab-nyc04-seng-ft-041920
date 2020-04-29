@@ -20,6 +20,8 @@ def nyc_pigeon_organizer(hash)
         if !new_hash[pigeon_name][outer_key]
           new_hash[pigeon_name][outer_key] = []
         end
+        
+        new_hash[pigeon_name][outer_key] << inner_key.to_s
       end 
     end
   end
