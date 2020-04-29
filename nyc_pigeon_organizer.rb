@@ -6,7 +6,7 @@ def nyc_pigeon_organizer(hash)
     # pp value
     # is a hash storing grey, white, male etc
     value.each do |inner_key, inner_value|
-      pp inner_key
+      # pp inner_key
       #:purple :grey :male :female "subway" "lib"
     end
   end
