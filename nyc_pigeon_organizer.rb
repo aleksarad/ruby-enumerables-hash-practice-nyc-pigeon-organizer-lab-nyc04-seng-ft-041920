@@ -8,6 +8,8 @@ def nyc_pigeon_organizer(hash)
     value.each do |inner_key, inner_value|
       # pp inner_key
       #:purple :grey :male :female "subway" "lib"
+      
+      pp inner_value
     end
   end
 end
