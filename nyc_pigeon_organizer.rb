@@ -13,6 +13,7 @@ def nyc_pigeon_organizer(hash)
       # arrays of pigeon names
       
       inner_value.each do |pigeon_name|
+        #if no hash with key at pigeon_name exists, create it
         if !new_hash[pigeon_name]
           new_hash[pigeon_name] = {}
         end
