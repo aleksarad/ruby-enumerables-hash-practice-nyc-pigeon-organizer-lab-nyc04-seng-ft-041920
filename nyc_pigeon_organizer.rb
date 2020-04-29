@@ -16,7 +16,6 @@ def nyc_pigeon_organizer(hash)
         if !new_hash[pigeon_name]
           new_hash[pigeon_name] = {}
         end
-        p new_hash
       end 
     end
   end
