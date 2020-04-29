@@ -2,11 +2,14 @@ def nyc_pigeon_organizer(hash)
   
   new_hash = {}
   hash.each do |outer_key, value|
+    
     # pp outer_key
     # :color :gender :lives
     # pp value
     # is a hash storing grey, white, male etc
+    
     value.each do |inner_key, inner_value|
+      
       # pp inner_key
       #:purple :grey :male :female "subway" "lib"
       
@@ -14,17 +17,21 @@ def nyc_pigeon_organizer(hash)
       # arrays of pigeon names
       
       inner_value.each do |pigeon_name|
+        
         #if no hash with key at pigeon_name exists, create it
+        
         if !new_hash[pigeon_name]
           new_hash[pigeon_name] = {}
         end
         
         #if nothing exists at pigeon name and outer key, create it
+        
         if !new_hash[pigeon_name][outer_key]
           new_hash[pigeon_name][outer_key] = []
         end
         
         #add inner key values to newly created array
+        
         new_hash[pigeon_name][outer_key] << inner_key.to_s
       end 
     end
