@@ -13,7 +13,7 @@ def nyc_pigeon_organizer(hash)
       # arrays of pigeon names
       
       inner_value.each do |pigeon_name|
-        new_hash[pigeon_names] = 
+        new_hash[pigeon_name] = 
         p new_hash
       end 
     end
