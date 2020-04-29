@@ -1,6 +1,6 @@
 def nyc_pigeon_organizer(hash)
   new_hash = {}
-  data.each do |key, value|
+  hash.each do |key, value|
     pp key
     # value.each do |innerkey, innervalue|
     #   innervalue.each do |item|
