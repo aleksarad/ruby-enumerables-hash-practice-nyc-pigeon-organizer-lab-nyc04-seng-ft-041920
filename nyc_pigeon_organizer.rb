@@ -5,7 +5,8 @@ def nyc_pigeon_organizer(hash)
     # :color :gender :lives
     # pp value
     # is a hash storing grey, white, male etc
-    value.each do
+    value.each do ||
+  end
   end
 end
 
