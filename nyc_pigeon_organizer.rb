@@ -21,7 +21,7 @@ def nyc_pigeon_organizer(hash)
       end 
     end
   end
-  p new_hash
+  pp new_hash
 end
 
 pigeon_list = {
