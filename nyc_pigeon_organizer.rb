@@ -10,6 +10,7 @@ def nyc_pigeon_organizer(hash)
       #:purple :grey :male :female "subway" "lib"
       
       pp inner_value
+      # pigeon names
     end
   end
 end
