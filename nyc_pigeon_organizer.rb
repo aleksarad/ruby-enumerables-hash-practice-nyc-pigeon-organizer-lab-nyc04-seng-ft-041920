@@ -1,4 +1,5 @@
 def nyc_pigeon_organizer(hash)
+  
   new_hash = {}
   hash.each do |outer_key, value|
     # pp outer_key
