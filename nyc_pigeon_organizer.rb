@@ -1,7 +1,7 @@
 def nyc_pigeon_organizer(hash)
   new_hash = {}
   hash.each do |outer_key, value|
-    pp key
+    pp outer_key
     pp value
     # value.each do |innerkey, innervalue|
     #   innervalue.each do |item|
