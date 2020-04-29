@@ -10,7 +10,7 @@ def nyc_pigeon_organizer(hash)
       #:purple :grey :male :female "subway" "lib"
       
       # pp inner_value
-      # pigeon names
+      # arrays of pigeon names
       inner_value.each do |pigeon_names|
         p pigeon_names
       end 
